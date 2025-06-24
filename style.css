@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: "Chokokutai", sans-serif;
+  line-height: 1;
+  margin-top: 6px;
+}
+
+body {
+  background-color: #1c1917;
+  color: #fafaf9;
+  font-family: "Chokokutai", sans-serif;
+  padding: 48px 64px;
+}
+
+.header {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.quote-box {
+  background-image: url("app_images/frozen_ice.jpg");
+  background-color: #44403c;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin: 10px 10px;
+  width: 40%;
+  height: 400px;
+  border-radius: 16px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-family: "Hi Melody", sans-serif;
+  font-size: 30px;
+  color: #fafaf9;
+}
+
+.ice-image {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  display: block;
+}
+
+.quote-text {
+  font-size: 30px;
+  font-family: "Hi Melody", sans-serif;
+  color: inherit;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.btn-populate {
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: "Chokokutai", sans-serif;
+  line-height: 1;
+  font-size: 20px;
+  padding: 16px 13px;
+}
+
+.btn-populate:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-prompt {
+  font-family: "Hi Melody", sans-serif;
+  font-size: 25px;
+  margin: 10px 10px;
+}
+
+.btn-reset {
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: "Chokokutai", sans-serif;
+  line-height: 1;
+  font-size: 20px;
+  padding: 16px 13px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
