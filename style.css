@@ -117,3 +117,19 @@ button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+@media (max-width: 600px) {
+  .quote-box {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    min-height: 300px;
+    padding: 20px;
+    font-size: 24px;
+  }
+
+  .main {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
