@@ -21,17 +21,17 @@ The Icebreaker app is a simple web-based tool designed to help people spark conv
 - CSS3
 - JavaScript
 
-Features:
+### Features:
 - Random icebreaker generation
 - Entirely client-sided, no server or database required
 - Simple button state handling
 - Styled user interface
 - Easy to add more questions directly in the code
 
-Try it out! 
+### Try it out! 
 1. Download or clone the repo: git clone https://github.com/JMiceli7/Icebreaker.git
 2. Open index.html in your browser
 
-Planned improvements:
+### Planned improvements:
 - Enhance CSS styling
 - Add animations and transitions in JavaScript
