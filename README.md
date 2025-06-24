@@ -28,9 +28,7 @@ The Icebreaker app is a simple web-based tool designed to help people spark conv
 - Styled user interface
 - Easy to add more questions directly in the code
 
-### Try it out! 
-1. Download or clone the repo: git clone https://github.com/JMiceli7/Icebreaker.git
-2. Open index.html in your browser
+Try it out! This app is live at https://jmiceli7.github.io/Icebreaker/
 
 ### Planned improvements:
 - Enhance CSS styling
