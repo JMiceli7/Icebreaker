@@ -7,7 +7,7 @@ The Icebreaker app is a simple web-based tool designed to help people spark conv
 ### This project showcases:
 - DOM manipulation
 - HTML/CSS structure and styling
-- Clean code and UI without a frontend framework
+- Clean code and UI
 - Creation of a responsive, interactive user experience
 
 ### How it works:
